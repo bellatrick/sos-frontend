@@ -1,0 +1,72 @@
+
+
+.voice-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.listen{
+  height: 100px;
+  width: 100px;
+  border-radius: 50% !important;
+}
+.listen .mic{
+  font-size: 25px;
+}
+.voice-input p{
+  text-align: center;
+  
+}
+.voice-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00A884;
+  z-index: 10000;
+  font-size: 16px;
+}
+
+.voice-input .error {
+  color: red;
+}
+
+.voice-input .transcript {
+  max-width: 300px;
+}
+.ion-content{
+  width: 100%;
+}
+.ion-list{
+  margin-top: 20px;
+}
+.input-button {
+  margin-top: 15px;
+}
+.username_wrapper{
+  margin: 10px 10px 0px auto;
+
+}
+.ion-wrapper {
+  height: 60vh;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+@media (max-width: 600px) {
+  .ion-wrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
